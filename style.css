@@ -178,6 +178,13 @@ body {
     animation-delay: 4s;
 }
 
+.floating-card:nth-child(4) {
+    top: 80px;
+    left: 150px;
+    animation-delay: 6s;
+    background: linear-gradient(135deg, rgba(255, 107, 107, 0.95), rgba(255, 215, 0, 0.95));
+}
+
 .floating-card h3 {
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
@@ -735,6 +742,146 @@ section {
     line-height: 1.8;
 }
 
+/* 学習ロードマップセクション */
+.roadmap {
+    background: white;
+}
+
+.roadmap-intro {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    color: #555;
+}
+
+.roadmap-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.roadmap-item {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.roadmap-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.roadmap-level {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.roadmap-item h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.roadmap-item ul {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.roadmap-item li {
+    padding: 0.5rem 0;
+    color: #555;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.roadmap-item li:before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: #667eea;
+    font-weight: bold;
+}
+
+.roadmap-item .highlight-item {
+    color: #ff6b6b;
+    font-weight: 600;
+}
+
+.roadmap-result {
+    background: rgba(102, 126, 234, 0.1);
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #667eea;
+}
+
+/* 部活動セクション */
+.clubs {
+    background: #f8f9fa;
+}
+
+.clubs-intro {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    color: #555;
+}
+
+.clubs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.club-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.club-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.club-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.club-card h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.club-card p {
+    color: #666;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.club-benefit {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 600;
+}
+
 /* CTAセクション */
 .cta {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -781,6 +928,60 @@ section {
     font-size: 0.9rem;
     color: #ffd700;
     font-weight: 500;
+}
+
+.cta-philosophy {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 15px;
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    border: 2px solid rgba(255, 215, 0, 0.3);
+}
+
+/* 追加スタイル */
+.problem-highlight {
+    color: #ff6b6b;
+    font-weight: 600;
+}
+
+.solution-highlight {
+    color: #667eea;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.solution-method {
+    display: inline-block;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    color: #667eea;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.instructor-quote {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.instructor-quote p {
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+.instructor-quote span {
+    font-size: 1rem;
+    opacity: 0.9;
 }
 
 /* フッター */
