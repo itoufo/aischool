@@ -754,6 +754,17 @@ section {
     color: #555;
 }
 
+.roadmap-note {
+    display: inline-block;
+    background: rgba(102, 126, 234, 0.1);
+    color: #667eea;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
 .roadmap-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
