@@ -835,6 +835,277 @@ section {
     color: #667eea;
 }
 
+/* NASHEEメソッドセクション */
+.nashee-method {
+    background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
+    padding: 80px 0;
+}
+
+.nashee-intro {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    color: #555;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nashee-highlight {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+}
+
+.nashee-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.nashee-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-top: 4px solid;
+    border-image: linear-gradient(45deg, #667eea, #764ba2) 1;
+}
+
+.nashee-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.nashee-letter {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.nashee-item h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.nashee-item h4 {
+    font-size: 1rem;
+    color: #667eea;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.nashee-item p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 0.5rem;
+}
+
+.nashee-example {
+    color: #888;
+    font-size: 0.9rem;
+    font-style: italic;
+    border-left: 3px solid #667eea;
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+
+.nashee-conclusion {
+    text-align: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+}
+
+.nashee-mastery {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+/* AI時代の能力と知識セクション */
+.ai-skills {
+    background: white;
+    padding: 80px 0;
+}
+
+.skills-intro {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    color: #555;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills-note {
+    display: inline-block;
+    background: rgba(102, 126, 234, 0.1);
+    color: #667eea;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.skills-container {
+    margin-bottom: 3rem;
+}
+
+.skills-section {
+    margin-bottom: 4rem;
+}
+
+.skills-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+    font-weight: 700;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.skill-card {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 1.5rem;
+    border-radius: 15px;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.skill-number {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.skill-card h4 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.skill-card p {
+    color: #666;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.knowledge-section {
+    margin-top: 3rem;
+}
+
+.knowledge-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.5rem;
+}
+
+.knowledge-card {
+    background: white;
+    border: 2px solid #e9ecef;
+    padding: 1.5rem;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+.knowledge-card:hover {
+    border-color: #667eea;
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.1);
+    transform: translateY(-3px);
+}
+
+.knowledge-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.knowledge-card h4 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.knowledge-card p {
+    color: #666;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.skills-conclusion {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 20px;
+}
+
+.skills-highlight {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.instructor-feature {
+    display: inline-block;
+    background: linear-gradient(45deg, #ff6b6b, #ffd700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+}
+
 /* 部活動セクション */
 .clubs {
     background: #f8f9fa;
